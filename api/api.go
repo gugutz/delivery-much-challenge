@@ -1,10 +1,10 @@
 package api
 
 import (
-	"delivery-much-api/api/recepies"
+	"delivery-much-api/api/recipes"
 	"github.com/gin-gonic/gin"
 )
 
 func Start(router *gin.Engine) {
-	recepies.ApplyRoutes(router) // apply api router
+	recipes.ApplyRoutes(router) // apply api router
 }
